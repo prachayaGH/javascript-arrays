@@ -10,5 +10,19 @@ const employees = [
     hobbies: ["Cryptocurrency", "Social media"],
   },
 ];
+const alicia={
+    name:"Alicia",
+    age:29,
+    hobbies:["Shopping","Reading novels"],
+}
 
-// Start coding here
+const kody={
+  name:"Kody",
+  age:19,
+  hobbies:["Computer games","Wakeboard"],
+}
+
+employees.push(kody)
+employees.push(alicia)
+console.log(employees)
+
